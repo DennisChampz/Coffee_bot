@@ -5,11 +5,11 @@ def coffee_bot():
   drink_type=get_drink_type()
   temp_type=get_temp_type()
   print ('Alright, that\'s a {} {} {}!'.format (temp_type, size, drink_type))  
-  name=input('Can I get your name please? \n>')
-  print ('Thanks, {}! Your drink will be ready shortly.'.format(name))
   cup_type=get_cup_type()
   add_order=get_add_order()
-
+  name=input('Can I get your name please? \n>')
+  print ('Thanks, {}! Your drink will be ready shortly.'.format(name))
+  
 def thank_message():
   print ('Thank you!')
 
